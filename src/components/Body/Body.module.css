@@ -43,6 +43,7 @@
    hyphens: auto;
    color: #ff8615;
    margin-top: 70px;
-   border: 2px solid #ff9f43;
+   border: 2px solid transparent;
+   box-shadow: 20px 5px #ff9f43, -20px -5px 0 #feca57;
    padding: 20px;
 }
