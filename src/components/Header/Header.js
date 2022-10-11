@@ -1,10 +1,12 @@
 import * as styles from "./Header.module.css";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
+
 
 function Header() {
 return (
     <header className={styles.portfolio_header}>
         <nav className={styles.portfolio_nav}>
-            <ul className={styles.portfolio_ul}>
+            <ul>
                 <li>
                     About
                 </li>
@@ -19,6 +21,7 @@ return (
                 <a href="https://www.linkedin.com/in/nikaisaiashvili/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
                 <a href="https://github.com/NikaIsaiashvili" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
                 <a href="mailto:nisaiashvili@gmail.com"><ion-icon name="mail"></ion-icon></a>
+                <BurgerMenu />
             </div>
         </nav>
     </header>

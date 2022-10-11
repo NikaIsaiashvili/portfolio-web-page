@@ -13,7 +13,7 @@
     justify-content: center;
 }
 
-.portfolio_ul{
+.portfolio_nav ul{
     list-style: none;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@
     border-right: 4px solid #222f3e;
 }
 
-.portfolio_ul li {
+.portfolio_nav ul li {
     cursor: pointer;
     margin: 15px;
     padding: 10px 25px 10px 25px;
@@ -43,7 +43,7 @@
     
 }
 
-.portfolio_ul li:hover{
+.portfolio_nav ul li:hover{
     --p: 100%;
   --s: calc(70% + .61em);
   color: #ff9f43;
@@ -86,5 +86,23 @@
     }
     100%{
         background-position: 0 50%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .portfolio_nav ul{
+        display: none;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .portfolio_contact a {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .portfolio_contact a {
+        font-size: 15px;
     }
 }

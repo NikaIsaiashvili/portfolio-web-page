@@ -45,5 +45,33 @@
    margin-top: 70px;
    border: 2px solid transparent;
    box-shadow: 20px 5px #ff9f43, -20px -5px 0 #feca57;
-   padding: 20px;
+   padding: 40px 20px;
 }
+
+
+@media screen and (max-width:876px) {
+    .main_text h2 {
+       font-size: 40px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .main_text span {
+        font-size: 15px;
+    }
+
+    .main_text h1 {
+        font-size: 25px;
+     }
+     
+     .main_text h2 {
+         font-size: 20px;
+     }
+
+     .main_info {
+       font-size: 15px;
+       box-shadow: 10px 2.5px #ff9f43, -10px -2.5px 0 #feca57;
+       padding: 10px;
+     }
+}
+

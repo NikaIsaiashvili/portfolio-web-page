@@ -1,0 +1,54 @@
+.burger_nav {
+    visibility: hidden;
+    position: absolute;
+   height:80vh;
+   width: 100%;
+   border-top: 4px solid #222f3e;
+   background: linear-gradient(-45deg, #ff9e43, #fec957);
+    background-size: 400% 400%;
+    animation: change 5s ease-in-out infinite;
+}
+
+.burger_nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+    width: 100%;
+}
+
+.burger_nav ul li {
+    list-style:square;
+    cursor: pointer;
+    margin: 20px;
+    width: 150px;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #222f3e;
+    text-align: center;
+    background: 
+    linear-gradient(#222f3e 0 0) no-repeat
+     calc(200% - var(--p,0%)) 100% / 200% var(--p,.08em);
+  transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
+}
+
+.burger_nav ul li:hover {
+    --p: 100%;
+    --t: .3s;
+    color: #ff9f43;
+}
+
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
