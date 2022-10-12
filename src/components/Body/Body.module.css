@@ -61,15 +61,15 @@
     }
 
     .main_text h1 {
-        font-size: 25px;
+        font-size: 20px;
      }
      
      .main_text h2 {
-         font-size: 20px;
+         font-size: 15px;
      }
 
      .main_info {
-       font-size: 15px;
+       font-size: 70%;
        box-shadow: 10px 2.5px #ff9f43, -10px -2.5px 0 #feca57;
        padding: 10px;
      }

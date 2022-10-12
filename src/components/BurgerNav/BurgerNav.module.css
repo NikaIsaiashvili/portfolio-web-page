@@ -1,9 +1,5 @@
 .burger_nav {
    position: absolute;
-   height: 80vh;
-   top: 100;
-   z-index: inherit;
-   width: 100%;
    border-top: 4px solid #222f3e;
    background: linear-gradient(-45deg, #ff9e43, #fec957);
     background-size: 400% 400%;
@@ -17,7 +13,6 @@
     justify-content: center;
     flex-direction: column;
     height: 70vh;
-    width: 100%;
 }
 
 .burger_nav ul li {
@@ -52,5 +47,14 @@
     }
     100%{
         background-position: 0 50%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .burger_nav {
+        height: 80vh;
+        top: 100;
+        z-index: inherit;
+        width: 100%;
     }
 }
