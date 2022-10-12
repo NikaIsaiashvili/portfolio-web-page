@@ -34,7 +34,5 @@
   },
   "browserlist": [
     "defaults"
-  ],
-  "main": "index.js",
-  "description": ""
+  ]
 }

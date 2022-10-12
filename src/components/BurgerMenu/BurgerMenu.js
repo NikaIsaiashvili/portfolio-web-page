@@ -11,9 +11,9 @@ function BurgerMenu() {
   return (
     <button className={styles.burger_icon} onClick={handleToggle}>
       {navOpen ? (
-        <ion-icon name="menu-sharp" className={styles.burger_open}></ion-icon>
+        <ion-icon name="menu-sharp" ></ion-icon>
       ) : (
-        <ion-icon name="close" className={styles.burger_close}></ion-icon>
+        <ion-icon name="close" ></ion-icon>
       )}
     </button>
   );
