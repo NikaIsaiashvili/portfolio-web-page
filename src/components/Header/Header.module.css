@@ -22,7 +22,6 @@
     justify-content: center;
     flex-wrap: wrap;
     flex: 2;
-    border-right: 4px solid #222f3e;
 }
 
 .portfolio_nav ul li {
@@ -94,12 +93,16 @@
     .portfolio_nav ul{
         display: none;
     }
+    .portfolio_nav ul li {
+        border: none;
+    }
 }
 
 @media screen and (max-width:410px) {
     .portfolio_contact a {
         font-size: 20px;
     }
+    
 }
 
 @media screen and (max-width:320px) {

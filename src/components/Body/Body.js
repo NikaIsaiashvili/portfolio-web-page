@@ -1,10 +1,8 @@
 import * as styles from "./Body.module.css";
-import BurgerNav from "../BurgerNav/BurgerNav";
 
 function Body() {
     return (
     <main>
-        <BurgerNav />
         <div className={styles.main_container}>
         <div className={styles.main_text}>
                 <span>Hi, my name is</span>

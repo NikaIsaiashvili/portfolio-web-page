@@ -1,5 +1,6 @@
 .burger_icon {
     display: none;
+    position: relative;
    background-color: transparent;
    border: none;
    font-size: 40px;

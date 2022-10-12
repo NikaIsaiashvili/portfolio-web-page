@@ -1,7 +1,8 @@
 .burger_nav {
-    visibility: hidden;
-    position: absolute;
+   position: absolute;
    height: 80vh;
+   top: 100;
+   z-index: inherit;
    width: 100%;
    border-top: 4px solid #222f3e;
    background: linear-gradient(-45deg, #ff9e43, #fec957);
