@@ -1,13 +1,14 @@
 .burger_nav {
     visibility: hidden;
     position: absolute;
-   height:80vh;
+   height: 80vh;
    width: 100%;
    border-top: 4px solid #222f3e;
    background: linear-gradient(-45deg, #ff9e43, #fec957);
     background-size: 400% 400%;
     animation: change 5s ease-in-out infinite;
 }
+
 
 .burger_nav ul {
     display: flex;
