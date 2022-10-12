@@ -17,6 +17,7 @@
 .portfolio_nav ul{
     list-style: none;
     display: flex;
+    border-right: 4px solid #222f3e;
     align-items: center;
     flex-direction: row;
     justify-content: center;
@@ -93,6 +94,7 @@
     .portfolio_nav ul{
         display: none;
     }
+
     .portfolio_nav ul li {
         border: none;
     }
