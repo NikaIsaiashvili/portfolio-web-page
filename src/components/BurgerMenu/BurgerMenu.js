@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import * as styles from "./BurgerMenu.module.css";
-import BurgerNav from "../BurgerNav/BurgerNav";
 
 function BurgerMenu() {
   const [navOpen, setNavOpen] = useState(false);
