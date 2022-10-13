@@ -116,14 +116,14 @@
 }
 
 @media screen and (max-width:856px) {
-    .portfolio_nav ul li{
+    .portfolio_nav ul li a{
         font-size: 15px;
     }
 }
 
 @media screen and (max-width:800px) {
 
-    .home_btn {
+    .home_btn_tr{
         display: none;
     }
 
@@ -131,7 +131,7 @@
         display: none;
     }
 
-    .portfolio_nav ul li {
+    .portfolio_nav ul li a{
         border: none;
     }
 
