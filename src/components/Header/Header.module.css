@@ -7,6 +7,25 @@
     animation: change 5s ease-in-out infinite;
 }
 
+.home_btn_tr {
+    font-size: 40px;
+    display: flex;
+    align-items:center;
+    justify-content: right;
+    flex-wrap: wrap;
+    flex-basis: 110px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.home_btn_tr:hover{
+   font-size: 50px;
+}
+
+.home_btn {
+    color: #222f3e;
+}
+
 .portfolio_nav {
     height: 100px;
     display: flex;
@@ -24,7 +43,8 @@
     flex: 2;
 }
 
-.portfolio_nav ul li {
+
+.portfolio_nav ul li a {
     cursor: pointer;
     margin: 15px;
     padding: 10px 25px 10px 25px;
@@ -43,7 +63,12 @@
     
 }
 
-.portfolio_nav ul li:hover{
+.portfolio_nav ul li a {
+    text-decoration: none;
+    color: #222f3e;
+}
+
+.portfolio_nav ul li a:hover{
     --p: 100%;
   --s: calc(70% + .61em);
   color: #ff9f43;
@@ -90,7 +115,18 @@
     }
 }
 
+@media screen and (max-width:856px) {
+    .portfolio_nav ul li{
+        font-size: 15px;
+    }
+}
+
 @media screen and (max-width:800px) {
+
+    .home_btn {
+        display: none;
+    }
+
     .portfolio_nav ul{
         display: none;
     }

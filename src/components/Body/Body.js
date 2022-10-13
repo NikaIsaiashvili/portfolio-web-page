@@ -1,8 +1,10 @@
+import Header from "../Header/Header";
 import * as styles from "./Body.module.css";
 
 function Body() {
     return (
     <main>
+        <Header/>
         <div className={styles.main_container}>
         <div className={styles.main_text}>
                 <span>Hi, my name is</span>
