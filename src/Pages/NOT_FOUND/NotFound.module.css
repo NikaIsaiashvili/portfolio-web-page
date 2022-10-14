@@ -14,3 +14,10 @@
 .Not_Found_Text span {
   color: #ff9f43;
 }
+
+.Not_Found_Text a {
+  color: #ff9f43;
+  padding-bottom: 3px;
+  text-decoration: none;
+  border-bottom: 3px solid #feca57;
+}
