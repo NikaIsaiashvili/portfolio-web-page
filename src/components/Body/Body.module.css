@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: fit-content;
 }
 
 .main_text {
@@ -13,12 +12,12 @@
    flex-direction: column;
    align-items: flex-start;
    font-weight: bolder;
-   color: #ff9f43;
+   color: #a4b0be;
    text-transform: uppercase;
 }
 
 .main_text span {
-    color: #feca57;
+    color:#a4b0be;
     font-size: 30px;
     margin-top: 100px;
 }
@@ -30,7 +29,7 @@
 
 .main_text h2 {
     font-size: 45px;
-    color: #ff8615;
+    color: #c7ecee;
 }
 
 
@@ -41,10 +40,10 @@
    overflow-wrap: break-word;
    word-wrap: break-word;
    hyphens: auto;
-   color: #ff8615;
+   color: #ffff;
    margin-top: 70px;
    border: 2px solid transparent;
-   box-shadow: 20px 5px #ff9f43, -20px -5px 0 #feca57;
+   box-shadow: 20px 5px #c7ecee6c, -20px -5px 0 #7ed5df6e;
    padding: 40px 20px;
 }
 
@@ -69,7 +68,7 @@
 
      .main_info {
        font-size: 70%;
-       box-shadow: 10px 2.5px #ff9f43, -10px -2.5px 0 #feca57;
+       box-shadow: 10px 2.5px #c7ecee6c, -10px -2.5px 0 #7ed5df6e;
        padding: 10px;
      }
 }

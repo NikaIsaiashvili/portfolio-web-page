@@ -1,7 +1,7 @@
 .burger_nav {
    position: absolute;
-   border-top: 4px solid #222f3e;
-   background: linear-gradient(-45deg, #ff9e43, #fec957);
+   border-top: 4px solid #a4b0be;
+   background: linear-gradient(-45deg, #2f3542, #57606f);
     background-size: 400% 400%;
     animation: change 5s ease-in-out infinite;
 }
@@ -23,20 +23,20 @@
     padding: 20px;
     font-size: 18px;
     font-weight: 700;
-    color: #222f3e;
+    color: #a4b0be;
 }
 
 .burger_nav ul li a {
     background: 
-    linear-gradient(#222f3e 0 0) no-repeat
+    linear-gradient(#2f3542 0 0) no-repeat
      calc(200% - var(--p,0%)) 100% / 200% var(--p,.08em);
   transition: .3s var(--t,0s), background-position .3s calc(.3s - var(--t,0s));
 }
 
 .burger_nav ul li a:hover {
     --p: 100%;
-    --t: .3s;
-    color: #ff9f43;
+    --t: 0s;
+    color: #c7ecee;
 }
 
 
