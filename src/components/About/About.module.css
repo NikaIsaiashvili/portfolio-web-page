@@ -105,8 +105,13 @@
 
 .aboutme_header {
     padding-bottom: 15px;
+    text-transform: uppercase;
 }
 
+.education_info,
+.skills_info {
+    text-transform: uppercase;
+}
 
 @media screen and (max-width: 480px) {
     .about_container {
