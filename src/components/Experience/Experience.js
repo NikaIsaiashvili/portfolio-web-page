@@ -1,9 +1,10 @@
+import RenderSkills from "../skills/skills"
 
 
 function Experience() {
     return (
         <>
-        <div>EXPERIENCE</div>
+        <RenderSkills />
         </>
     )
 }

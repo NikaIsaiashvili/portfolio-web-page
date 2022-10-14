@@ -56,7 +56,7 @@
     .burger_nav {
         height: 80vh;
         top: 100;
-        z-index: inherit;
+        z-index: 10;
         width: 100%;
     }
 }
