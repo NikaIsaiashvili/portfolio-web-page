@@ -1,4 +1,6 @@
 import * as styles from "../BurgerNav/BurgerNav.module.css";
+import ROUTES from "../../config/routes";
+import { NavLink } from "react-router-dom";
 
 function BurgerNav({ visible }) {
   return (
@@ -7,9 +9,34 @@ function BurgerNav({ visible }) {
       style={{ visibility: visible ? "visible" : "hidden" }}
     >
       <ul>
-        <li>About</li>
-        <li>Experience</li>
-        <li>Projects</li>
+        <li>
+        <NavLink
+              to={`/${ROUTES.ABOUT}`}
+            >
+              About
+            </NavLink>
+        </li>
+        <li>
+        <NavLink
+              to={`/${ROUTES.EXPERIENCE}`}
+            >
+              Experience
+            </NavLink>
+        </li>
+        <li>
+        <NavLink
+              to={`/${ROUTES.PROJECTS}`}
+            >
+              Projects
+            </NavLink>
+        </li>
+        <li>
+        <NavLink
+          to={ROUTES.HOME}
+        >
+           Home
+        </NavLink>
+        </li>
       </ul>
     </nav>
   );

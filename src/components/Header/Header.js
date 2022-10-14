@@ -9,7 +9,7 @@ function Header() {
       <nav className={styles.portfolio_nav}>
         <div className={styles.home_btn_tr}>
         <NavLink className={styles.home_btn}
-          to={ROUTES.BODY}
+          to={ROUTES.HOME}
         >
             <ion-icon name="home"></ion-icon>
         </NavLink>
