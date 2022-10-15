@@ -41,11 +41,11 @@ function About() {
               </p>
             </div>
             <div className={Style.education_info}>
-              <h2 className={Style.education_header}>EDUCATION</h2>
+              <h2>EDUCATION</h2>
               <RenderEducation />
             </div>
             <div className={Style.skills_info}>
-              <h2 className={Style.skills_header}>Skills</h2>
+              <h2>Skills</h2>
               <RenderSkills />
             </div>
           </div>
