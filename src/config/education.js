@@ -1,4 +1,5 @@
 const educationData = [
+  "Georgian national University 'SEU' - Tourism bachelor",
     "Tbilisi School of communication React course",
     "Google",
     "Stackoverflow",
@@ -7,7 +8,7 @@ const educationData = [
     "Youtube",
     "w3school",
     "Udemy",
-    "Academind",
+    "Academind"
   ];
   
   export default educationData;

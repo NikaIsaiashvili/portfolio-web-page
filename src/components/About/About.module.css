@@ -125,6 +125,7 @@
 .education_info,
 .skills_info {
   text-transform: uppercase;
+  margin-top: 20px;
 }
 
 .about_info,
@@ -294,8 +295,64 @@
 }
 
 @media screen and (max-width: 480px) {
-.about_info p {
-  padding: 0 10px;
-  color: #ffff;
+.main_container {
+  width: 90%;
+  margin: 0 auto;
 }
+
+.profile_container {
+  width: 280px;
+  margin: 0 auto;
+  height: 380px;
+  margin-bottom: 40px;
+}
+
+.profile_container:hover {
+  width:280px;
+  height: 380px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.profile_name {
+  left: -20px;
+ }
+
+ .logos {
+  left: 0;
+}
+
+.right_side {
+  grid-template-rows: 1fr .5fr .5fr;
+}
+}
+
+@media screen and (max-width: 310px) {
+  .main_container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .profile_container {
+    width: 200px;
+    margin: 0 auto;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+  
+  .profile_container:hover {
+    width:200px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  
+  .profile_name {
+    left: -30%;
+   }
+  
+   .logos {
+    left: -22%;
+  }
+  
 }
