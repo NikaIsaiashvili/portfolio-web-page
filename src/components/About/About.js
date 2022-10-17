@@ -8,6 +8,9 @@ function About() {
       <section className={Style.main_container}>
         <div className={Style.about_container}>
           <div className={Style.profile_container}>
+            <div className={Style.profile_name}>
+              Nika Isaiashvili
+            </div>
             <div className={Style.logos}>
               <span className={Style.logo}>
                 <ion-icon name="logo-html5" className={Style.logo}></ion-icon>
