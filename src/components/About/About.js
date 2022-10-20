@@ -32,7 +32,7 @@ function About() {
               <p>
                 I'm Sociable, can find logical soulitons in difficult
                 situations, i always try to move forward and learn new things
-                that will benefit my work to software industry. I like to code
+                that will benefit my work to software industry. Since 2019 i like to code
                 things for web, and enjoy bringing ideas to life in the browser.
                 i have many interests, hobbies, areas of study and artistic
                 endeavors. I'm a fast learner, able to pick up new skills and

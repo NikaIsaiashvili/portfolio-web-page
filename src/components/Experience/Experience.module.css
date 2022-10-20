@@ -1,0 +1,46 @@
+.main_container {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.experience_container {
+  width: 80%;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin: 50px 0 0 0;
+  height: fit-content;
+  color: #a4b0be;
+  padding: 20px 0;
+  border-radius: 15px;
+  background-color: #a4b0be42;
+}
+
+.experience_text {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.experience_header {
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.experience_header_text {
+    padding-bottom: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    border-bottom: 4px solid #a4b0be;
+}
+
+.motivation_letter {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    }
+
