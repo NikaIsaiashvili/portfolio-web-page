@@ -1,8 +1,21 @@
 import * as Style from "../About/About.module.css";
 import RenderSkills from "../skills/skills";
 import RenderEducation from "../Education/education";
+import CV_Nika_Isaiashvili from "url:../../../public/Nika_Isaiashvili_CV/CV_Nika_Isaiashvili.pdf"
 
 function About() {
+
+  const downloadCv = () => {
+    fetch(CV_Nika_Isaiashvili).then(response => {
+      response.blob().then(cv => {
+        const fileURL = window.URL.createObjectURL(cv);
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = "CV_Nika_Isaiashvili.pdf";
+        alink.click();
+      })
+    })
+  }
   return (
     <>
       <section className={Style.main_container}>
@@ -42,6 +55,7 @@ function About() {
                 of them are just little parts of web page, (contact form, admin
                 panel, footer), but other - full web pages.
               </p>
+             <button onClick={downloadCv} className={Style.cv_button}>Download CV</button>
             </div>
             <div className={Style.education_info}>
               <h2>EDUCATION</h2>
