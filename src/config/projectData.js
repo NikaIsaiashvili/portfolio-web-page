@@ -5,20 +5,24 @@ import img3 from "../../public/images/img3.jpg";
 
 const projectData = [
  {
-    photo: img1,
-    numb: "first photo",
-    key: "first"
+    url: img1,
+    id: "1",
+    key: "first",
+    info:"First Project"
  },
  {
-    photo: img2,
-    numb: "second photo",
-    key: "second"
+    url: img2,
+    id: "2",
+    key: "second",
+    info:"second Project"
  },
  {
-    photo: img3,
-    numb: "third photo",
-    key: "third"
- },
+    url: img3,
+    id: "3",
+    key: "third",
+    info:"third Project"
+ }
+ 
 ];
 
 export default projectData;
