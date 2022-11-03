@@ -45,9 +45,12 @@ function SlideShow() {
             >
               {index === currentSlide && (
                 <>
+                <div className={styles.header_box}>
                   <p className={styles.numb_text}>{`${index + 1} / ${
                     projectData.length
-                  }`}</p>
+                  }`} </p>
+                  <h4 className={styles.header_text}>Some best selfworks</h4>
+                </div>
                   <img
                     src={photo.url}
                     alt={photo.key}

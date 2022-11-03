@@ -1,14 +1,14 @@
 import projectData from "../../config/projectData";
-import * as style from "../SlideShow/SlideDots.module.css";
+import * as styles from "../SlideShow/SlideDots.module.css";
 
 function SlideDots() {
   return (
     <>
-      <div className={style.dot_container}>
+      <div className={styles.dot_container}>
         {projectData.map((currentSlide, index) => {
           return (
             <span
-              className={style.dot}
+              className={`${styles.dot}` + " " +  `${styles.active}`}
               key={index}
               onClick={() => {
                 currentSlide.id

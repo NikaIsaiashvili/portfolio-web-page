@@ -8,21 +8,23 @@ const projectData = [
     url: img1,
     id: "1",
     key: "first",
-    info:"First Project"
+    info:"First Project",
+    type: "Html & Css"
  },
  {
     url: img2,
     id: "2",
     key: "second",
-    info:"second Project"
+    info:"second Project",
+    type: "Html & Css & JavaScript"
  },
  {
     url: img3,
     id: "3",
     key: "third",
-    info:"third Project"
+    info:"third Project",
+    type: "Jsx & Css & React"
  }
- 
 ];
 
 export default projectData;

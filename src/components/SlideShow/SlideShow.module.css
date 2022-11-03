@@ -4,6 +4,16 @@
   position: relative;
 }
 
+.header_box {
+  display: grid;
+  grid-template-columns: .1fr .78fr;
+  text-align: center;
+}
+
+.header_text {
+  text-transform: uppercase;
+}
+
 .prev,
 .next {
   cursor: pointer;
