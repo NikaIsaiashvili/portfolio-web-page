@@ -44,6 +44,7 @@
   border-radius: 15px;
   background-color: rgba(0, 0, 0, 0.24);
   position: relative;
+  overflow: hidden;
 }
 
 .project_name {
@@ -57,13 +58,12 @@
   height: 90%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -150%);
-  visibility: hidden;
+  transform: translate(-50%, -156%);
   color: #ffff;
   font-weight: 700;
   background-color: #528c9298;
   padding: 10px;
-  transition: all .3s ease-in;
+  transition: all 300ms ease-in-out;
 }
 
 .project_link {
@@ -77,22 +77,11 @@
   transition: all 0.5s;
   border-radius: 10%;
   cursor: pointer;
-  filter: brightness(0.5);
 }
-
 .project_info:hover,
 .project_image:hover + .project_info {
   transform: translate(-50%, -44%);
-  transition-delay: 0.5s;
+  transition-delay: 0.2s;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
-  visibility: visible;
-}
-
-.project_image:hover {
-  border-bottom: none;
-  width: 100%;
-  height: 85%;
-  opacity: 1;
-  filter: brightness(1);
 }
