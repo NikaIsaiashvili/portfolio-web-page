@@ -85,3 +85,22 @@
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
+
+@media screen and (max-width: 1000px) {
+  .main_container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main_container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main_container {
+    width: 90%;
+  }
+}
