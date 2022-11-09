@@ -1,7 +1,8 @@
 import * as Style from "../About/About.module.css";
 import RenderSkills from "../skills/skills";
 import RenderEducation from "../Education/education";
-import CV_Nika_Isaiashvili from "url:../../../public/Nika_Isaiashvili_CV/CV_Nika_Isaiashvili.pdf"
+import CV_Nika_Isaiashvili from "url:../../../public/Nika_Isaiashvili_CV/CV_Nika_Isaiashvili.pdf";
+import Nika_Isaiashvili_React from "url:../../../public/React_Sertificate/Nika_Isaiashvili_React.pdf";
 
 function About() {
 
@@ -16,6 +17,20 @@ function About() {
       })
     })
   }
+  
+  const downloadReactSertificate = () => {
+    fetch(Nika_Isaiashvili_React).then(response => {
+      response.blob().then(cv => {
+        const fileURL = window.URL.createObjectURL(cv);
+        let alink = document.createElement('a');
+        alink.href = fileURL;
+        alink.download = "Nika_Isaiashvili_React.pdf";
+        alink.click();
+      })
+    })
+  }
+  
+  
   return (
     <>
       <section className={Style.main_container}>
@@ -55,7 +70,10 @@ function About() {
                 of them are just little parts of web page, (contact form, admin
                 panel, footer), but other - full web pages.
               </p>
+              <div className={Style.download_box}>
              <button onClick={downloadCv} className={Style.cv_button}>Download CV</button>
+             <button onClick={downloadReactSertificate} className={Style.sertificate_button}>Download React Sertificate</button>
+              </div>
             </div>
             <div className={Style.education_info}>
               <h2>EDUCATION</h2>

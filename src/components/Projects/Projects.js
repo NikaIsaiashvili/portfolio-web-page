@@ -1,5 +1,5 @@
 import React from "react";
-import projectData from "../../config/projectData";
+import projectData from "../../config/bestProjectData";
 import * as styles from "../Projects/Projects.module.css";
 import SlideShow from "../SlideShow/SlideShow";
 

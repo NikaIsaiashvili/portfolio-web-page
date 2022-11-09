@@ -27,3 +27,11 @@
       padding-bottom: 40px;
   }
 }
+
+@media screen and (max-width: 480px) {
+   .education_container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+

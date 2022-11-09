@@ -15,7 +15,7 @@ const skillsData = [
   "map",
   "filter",
   "routes",
-  "styles components",
+  "css modules",
 ];
 
 export default skillsData;

@@ -1,6 +1,5 @@
 import * as styles from "../SlideShow/SlideShow.module.css";
-import projectData from "../../config/projectData";
-import SlideDots from "./SlideDots";
+import projectData from "../../config/bestProjectData";
 
 import classNames from "classnames";
 import { useState, useEffect } from "react";
@@ -87,7 +86,6 @@ function SlideShow() {
           ❯
         </a>
       </div>
-      <SlideDots />
     </>
   );
 }

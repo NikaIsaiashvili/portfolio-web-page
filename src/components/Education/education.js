@@ -1,4 +1,4 @@
-import educationData from "../../config/education";
+import educationData from "../../config/educationData";
 import * as styles from "./education.module.css"
 
 function RenderEducation() {
