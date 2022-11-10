@@ -2,7 +2,7 @@ import * as Style from "../About/About.module.css";
 import RenderSkills from "../skills/skills";
 import RenderEducation from "../Education/education";
 import CV_Nika_Isaiashvili from "url:../../../public/Nika_Isaiashvili_CV/CV_Nika_Isaiashvili.pdf";
-import Nika_Isaiashvili_React from "url:../../../public/React_Sertificate/Nika_Isaiashvili_React.pdf";
+import Nika_Isaiashvili_React from "url:../../../public/React_Certificate/Nika_Isaiashvili_React.pdf";
 
 function About() {
 
@@ -18,7 +18,7 @@ function About() {
     })
   }
   
-  const downloadReactSertificate = () => {
+  const downloadReactCertificate = () => {
     fetch(Nika_Isaiashvili_React).then(response => {
       response.blob().then(cv => {
         const fileURL = window.URL.createObjectURL(cv);
@@ -72,7 +72,7 @@ function About() {
               </p>
               <div className={Style.download_box}>
              <button onClick={downloadCv} className={Style.cv_button}>Download CV</button>
-             <button onClick={downloadReactSertificate} className={Style.sertificate_button}>Download React Sertificate</button>
+             <button onClick={downloadReactCertificate} className={Style.certificate_button}>Download React Certificate</button>
               </div>
             </div>
             <div className={Style.education_info}>
