@@ -1,5 +1,5 @@
 import React from "react";
-import projectListData from "../../config/ProjectListData";
+import ProjectListData from "../../config/projectListData";
 import * as styles from "../Projects/Projects.module.css";
 import SlideShow from "../SlideShow/SlideShow";
 
@@ -13,7 +13,7 @@ function Projects() {
       <section className={styles.projects_main_container}>
         <h1 className={styles.project_header_text}>Project List</h1>
         <div className={styles.project_box_container}>
-          {projectListData.map((data, index) => {
+          {ProjectListData.map((data, index) => {
             return (
               <div className={styles.project_box}>
                 <p className={styles.project_name}> {data.type} </p>
