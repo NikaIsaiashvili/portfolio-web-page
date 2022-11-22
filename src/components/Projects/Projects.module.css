@@ -52,7 +52,7 @@
   margin: 10px 0;
 }
 
-.project_info {
+.project_info_box {
   position: absolute;
   width: 100%;
   height: 90%;
@@ -66,9 +66,25 @@
   transition: all 300ms ease-in-out;
 }
 
+.project_info_text {
+  font-weight: 700;
+  margin: 50px 20px 0 20px;
+  word-spacing: 5px;
+  text-align: center;
+}
+
 .project_link {
   text-decoration: none;
   color: #ffff;
+  border: 5px solid #7ed5dff6;
+  border-radius: 5px;
+  padding: 5px 15px;
+  border-top: none;
+}
+
+.project_link:hover {
+  background-color: #7ed5df6e;
+  transition: all .3s ease-in-out;
 }
 
 .project_image {
@@ -78,13 +94,14 @@
   border-radius: 10%;
   cursor: pointer;
 }
-.project_info:hover,
-.project_image:hover + .project_info {
+.project_info_box:hover,
+.project_image:hover + .project_info_box {
   transform: translate(-50%, -44%);
   transition-delay: 0.2s;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 
 
 @media screen and (max-width: 1000px) {

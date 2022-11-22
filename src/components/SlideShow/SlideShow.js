@@ -61,7 +61,7 @@ function SlideShow() {
                       target="_blank"
                       className={styles.text_link}
                     >
-                      Go to: {photo.info}
+                      Go to: {photo.name}
                     </a>
                   </p>
                 </>

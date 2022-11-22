@@ -1,5 +1,5 @@
 import React from "react";
-import projectData from "../../config/bestProjectData";
+import projectListData from "../../config/ProjectListData";
 import * as styles from "../Projects/Projects.module.css";
 import SlideShow from "../SlideShow/SlideShow";
 
@@ -13,7 +13,7 @@ function Projects() {
       <section className={styles.projects_main_container}>
         <h1 className={styles.project_header_text}>Project List</h1>
         <div className={styles.project_box_container}>
-          {projectData.map((data, index) => {
+          {projectListData.map((data, index) => {
             return (
               <div className={styles.project_box}>
                 <p className={styles.project_name}> {data.type} </p>
@@ -23,11 +23,12 @@ function Projects() {
                   alt={data.id}
                   key={index}
                 ></img>
-                <span className={styles.project_info}>
+                <div className={styles.project_info_box}>
                   <a href="#" target="_blank" className={styles.project_link}>
-                    {data.info}
+                    {data.name}
                   </a>
-                </span>
+                <p className={styles.project_info_text}>{data.info}</p>
+                </div>
               </div>
             );
           })}
