@@ -1,11 +1,11 @@
-import img1 from "../../public/images/outdoors.jpg";
-import img2 from "../../public/images/auction.jpg";
-import img3 from "../../public/images/wedding.jpg";
+import outdoors from "../../public/images/outdoors.jpg";
+import auction from "../../public/images/auction.jpg";
+import wedding from "../../public/images/wedding.jpg";
 
 
 const projectData = [
  {
-    url: img1,
+    url: outdoors,
     id: "1",
     key: "first",
     name:"Outdoors",
@@ -13,7 +13,7 @@ const projectData = [
     type: "Html & Css & Scss"
  },
  {
-    url: img2,
+    url: auction,
     id: "2",
     key: "second",
     name:"Auction",
@@ -21,7 +21,7 @@ const projectData = [
     type: "Html & Css"
  },
  {
-    url: img3,
+    url: wedding,
     id: "3",
     key: "third",
     name:"Wedding",
